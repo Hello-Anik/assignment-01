@@ -62,7 +62,50 @@
 
 /* header-section closed */
 
+/* text-color */
+
+.text-color{
+    color: #0E0E0EB3;
+}
+
+.top-bottom{
+    margin: 15px 0;
+}
+
+.bottom{
+    margin-bottom: 15px;
+}
+
 main{
     width: 80%;
-    
+    margin: 100px auto;
 }
+
+.vision-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.vision-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background: #5490F533;
+    padding: 27px 20px;
+    border-radius: 10px;
+
+}
+
+.card-btn{
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+    background: #09A15C;
+}
+
