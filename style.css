@@ -189,3 +189,42 @@ input[type="text"]{
 .donate-btn{
     margin-bottom: 20px;
 }
+
+/* donate-section-close */
+
+.second-bg{
+    background: #C6E4D6;
+    border-radius: 15px;
+    margin: 200px 0;
+    padding: 100px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title-of-letter{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+input[type="email"]{
+   padding: 15px 20px;
+  width: 40%;
+  margin-top: 50px;
+  border: 1px solid #0E0E0E26;
+  
+}
+input[type="submit"]{
+    padding: 15px;
+    color: white;
+    background: #006A50;
+    border: 1px solid #0E0E0E26;
+    
+}
+footer{
+    margin: 50px auto;
+
+}
