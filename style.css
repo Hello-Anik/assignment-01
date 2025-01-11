@@ -111,6 +111,20 @@ main{
 
 /* vision-section end */
 
+.quote-section{
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    box-shadow: 0px 4px 10px rgb(210, 209, 209);
+
+}
+
+
+
 .news{
     margin-top: 100px;
 }
@@ -215,13 +229,15 @@ input[type="email"]{
   width: 40%;
   margin-top: 50px;
   border: 1px solid #0E0E0E26;
-  
+  border-radius: 10px 0 0px 10px;
 }
 input[type="submit"]{
     padding: 15px;
     color: white;
     background: #006A50;
     border: 1px solid #0E0E0E26;
+    border-radius: 0px 10px 10px 0;
+    
     
 }
 footer{
