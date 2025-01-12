@@ -225,11 +225,12 @@ input[type="text"]{
 
 
 input[type="email"]{
-   padding: 15px 20px;
+   padding: 15px;
   width: 40%;
   margin-top: 50px;
   border: 1px solid #0E0E0E26;
   border-radius: 10px 0 0px 10px;
+  position: relative;
 }
 input[type="submit"]{
     padding: 15px;
@@ -237,6 +238,8 @@ input[type="submit"]{
     background: #006A50;
     border: 1px solid #0E0E0E26;
     border-radius: 0px 10px 10px 0;
+    position: absolute;
+    margin-top: 50px;
     
     
 }
